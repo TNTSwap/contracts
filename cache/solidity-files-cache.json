@@ -1,0 +1,95 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "G:\\xh\\区块链\\blast\\goerli\\contracts\\contracts\\TntswapFactory.sol": {
+      "lastModificationDate": 1708221348813,
+      "contentHash": "29184460ae6bb0e21a531c958789527a",
+      "sourceName": "contracts/TntswapFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "IERC20",
+        "ITntswapCallee",
+        "ITntswapERC20",
+        "ITntswapFactory",
+        "ITntswapPair",
+        "Math",
+        "SafeMath",
+        "TntswapERC20",
+        "TntswapFactory",
+        "TntswapPair",
+        "UQ112x112"
+      ]
+    },
+    "G:\\xh\\区块链\\blast\\goerli\\contracts\\contracts\\TntswapRouter.sol": {
+      "lastModificationDate": 1708221348816,
+      "contentHash": "0ef399dfa404414f7bfcb1445aa4a5f8",
+      "sourceName": "contracts/TntswapRouter.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.6"
+      ],
+      "artifacts": [
+        "IERC20",
+        "ISwapMining",
+        "ITntswapFactory",
+        "ITntswapPair",
+        "ITntswapRouter01",
+        "ITntswapRouter02",
+        "IWETH",
+        "SafeMath",
+        "TntswapLibrary",
+        "TntswapRouter",
+        "TransferHelper"
+      ]
+    }
+  }
+}
